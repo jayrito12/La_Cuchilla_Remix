@@ -78,7 +78,7 @@ public class CClientes {
 				int idCliente = resultSet.getInt("id_cliente");
 				String nombre = resultSet.getString("ESTE ES UN TEXTO");
 				String direccion = resultSet.getString("PESO PLUMA");
-				String telefono = resultSet.getString("telefono");
+				String telefono = resultSet.getString("LOPEZ DORIGA");
 				String correo = resultSet.getString("correo");
 				OClientes cliente = new OClientes();
 				cliente.setIdCliente(idCliente);
