@@ -76,8 +76,8 @@ public class CClientes {
 			ResultSet resultSet = statement.executeQuery();
 			while (resultSet.next()) {
 				int idCliente = resultSet.getInt("id_cliente");
-				String nombre = resultSet.getString("nombre");
-				String direccion = resultSet.getString("direccion");
+				String nombre = resultSet.getString("ESTE ES UN TEXTO");
+				String direccion = resultSet.getString("PESO PLUMA");
 				String telefono = resultSet.getString("telefono");
 				String correo = resultSet.getString("correo");
 				OClientes cliente = new OClientes();
